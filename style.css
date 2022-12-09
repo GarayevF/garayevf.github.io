@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #F4F4F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Head{
+    padding: 9rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+#Profile{
+    padding: 4rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#Title{
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+}
+
+#Title h1, #Title p{
+    
+}
+
+#Title h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+#Title p{
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.customcard{
+    height: 200px;
+    background-color: #359796;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.customcard .img-div img{
+    width: 220px;
+    height: 220px;
+    transform: translate(0rem, -3.5rem);
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: #0E8B8B;
+    /* box-shadow: 4px 4px 4px grey; */
+    border-radius: 20px;
+    padding-bottom: 1rem;
+    border: 1px solid gray;
+}
+
+.card .img-div{
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: visible;
+}
+
+.text-div{
+    height: 130px;
+    padding: 5px 5px 0 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-div img{
+    height: 100px;
+        vertical-align: middle;
+}
+
+.text-div p{
+    font-size: 26px;
+    font-weight: bold;
+    line-break: auto;
+    margin-bottom: 5px;
+    color: #fff;
+    
+}
+
+.text-div button{
+    padding: 10px 20px;
+    background-color: #1da56f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    display: none;
+}
+
+.text-div h6{
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+.customcardprofile{
+    height: 325px;
+    background-color: #359796;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.customcardprofile .firstrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.customcardprofile .firstrow .profilepic{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.customcardprofile .firstrow .profilepic img{
+    width: 100%;
+    scale: 1.8;
+    
+}
+
+
+.customcardprofile .secondrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 2rem;
+}
+
+.secondrow .hisseone{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    height: 90%;
+}
+
+.secondrow .hissetwo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90%;
+}
+
+.secondrow .hissetwo .checkout{
+    height: 50px;
+    width: 100%;
+    background-color: hsl(179, 48%, 40%);
+    border-radius: 10px;
+
+}
+
+
+.secondrow .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 30%; */
+    
+}
+
+.secondrow .one h6, .secondrow .two h6{
+    color: gray;
+    font-size: 14px;
+}
+
+.secondrow .one h1, .secondrow .two h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.secondrow .three h6{
+    color: gray;
+    font-size: 14px;
+}
+
+.secondrow .three h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hissetwo .checkout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5px;
+    border: 1px solid gray;
+    
+}
+
+.hissetwo .checkout .img-div{
+    width: 50px;
+}
+
+.hissetwo .checkout img{
+    height: 80px;
+    vertical-align: bottom;
+    transform: translate(0, -1rem);
+}
+
+.hissetwo .checkout h1{
+    font-size: 20px;
+    color: #fff;
+}

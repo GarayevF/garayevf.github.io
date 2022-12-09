@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #F4F4F6;;
+}
+
+#title{
+    padding: 2rem 0 0 1.5rem;
+}
+
+#Head{
+    padding: 3rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#Head .customcard{
+    padding-left: 1rem;
+    height: 180px;
+    background-color: #359796;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+#Head .customcard .img-div img{
+    width: 220px;
+    height: 220px;
+    transform: translate(1rem, -2.5rem);
+}
+
+#gohome{
+    padding: 1rem 20px;
+    
+}
+
+
+
+#gohome a{
+    color: black;
+}
+
+#gohome .back-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#gohome .back-div .img-div{
+    width: 40px;
+}
+
+#gohome .back-div .img-div img{
+    width: 100%;
+}
+
+
+#card1{
+    padding: 1rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#card1 .customcard{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+#card1 .customcard .cardrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card1 .customcard .img-div img{
+    width: 150px;
+    height: 150px;
+}
+
+#card1 .customcard .cardrow .text-div h1{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+
+
+#card2{
+    padding: 2rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#card2 .customcard{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#card2 .customcard .img-div img{
+    width: 150px;
+    height: 150px;
+    transform: translateX(1rem);
+}
+
+#card2 .customcard .text-div h1{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+
+
+
+#card3{
+    padding: 2rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#card3 .customcard{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+#card3 .customcard .img-div img{
+    width: 150px;
+    height: 150px;
+    transform: translateX(1rem);
+}
+
+#card3 .customcard .text-div h1{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}

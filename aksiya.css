@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#gohome{
+    padding: 1rem 20px;
+}
+
+body{
+    background-color: #F4F4F6;;
+}
+
+
+
+#gohome a{
+    color: black;
+}
+
+#gohome .back-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#gohome .back-div .img-div{
+    width: 40px;
+}
+
+#gohome .back-div .img-div img{
+    width: 100%;
+}
+
+
+#Head{
+    padding: 5rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#Head .customcard{
+    height: 200px;
+    background-color: #359796;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+#Head .customcard .img-div img{
+    width: 220px;
+    height: 220px;
+    transform: translate(1rem, -3.5rem);
+}
+
+#card1{
+    padding: 5rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#card1 .aksiyacard{
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid gray;
+    position: relative;
+}
+
+
+#card1 .aksiyacard .top .img-div{
+    height: 200px;
+    overflow: hidden;
+}
+
+
+#card1 .aksiyacard .top .img-div img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#card1 .aksiyacard .cardinfo{
+    height: 135px;
+    background-color: #fff;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#card1 .bottom{
+    height: 50px;
+    width: 100%;
+    background-color: hsl(179, 48%, 40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+
+
+#card1 .bottom .img-div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#card1 .bottom img{
+    height: 30px;
+    vertical-align: bottom;
+    transform: translate(-5px, 0rem);
+}
+
+#card1 .bottom h1{
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.cardinfo .row{
+    height: 100%;
+}
+
+.cardinfo .row .col-6{
+    display: flex;
+    align-items: center;
+    
+}
