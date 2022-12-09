@@ -25,9 +25,7 @@ a{
 #map .mapdiv div{
     height: 50px;
     width: 100%;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
+    
     background: rgba(53,151,150,.8);
     display: flex;
     justify-content: center;

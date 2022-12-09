@@ -61,7 +61,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 10px 0;
 }
 
 .customcardprofile .firstrow .profilepic{
@@ -90,7 +90,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0 2rem;
+    padding: 0 10px;
 }
 
 .secondrow .hisseone{
@@ -158,13 +158,13 @@ body{
 }
 
 .hissetwo .checkout .img-div{
-    width: 50px;
+    width: 20px;
 }
 
 .hissetwo .checkout img{
-    height: 80px;
+    height: 60px;
     vertical-align: bottom;
-    transform: translate(0, -1rem);
+    transform: translate(-10px, -1rem);
 }
 
 .hissetwo .checkout h1{
