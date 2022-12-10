@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Profile{
+    padding: 1rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+    margin-right: -10px;
+}
+
+#contact{
+    padding: 0.5rem 2rem 0 2rem;
+    margin-bottom: 1rem;
+    margin-right: -10px;
+}
+
+
+.customcardprofile{
+    height: 340px;
+    background-color: #359796;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+.customcardprofile .firstrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 10px;
+}
+
+.customcardprofile .firstrow .profilepic{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.customcardprofile .firstrow .profilepic img{
+    width: 100%;
+    scale: 1.8;
+    
+}
+
+
+.customcardprofile .secondrow{
+    padding: 10px 0.5rem;
+    width: 100%;
+    height: 240px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+
+input{
+    padding: 10px 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+}
+
+button{
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #359796;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.customcard{
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 10px 2rem;
+}
+
+
+#Head{
+    padding: 3rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#Head .customcard1{
+    padding-left: 1rem;
+    height: 140px;
+    background-color: #359796;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+#Head .customcard1 .img-div img{
+    width: 180px;
+    height: 180px;
+    transform: translate(1rem, -1.5rem);
+}

@@ -141,7 +141,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 1rem 10px;
 }
 
 .customcardprofile .firstrow .profilepic{
@@ -170,7 +170,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0 2rem;
+    padding: 0 1.4rem;
 }
 
 .secondrow .hisseone{
