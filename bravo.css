@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#title{
+    padding: 1rem 0 0 0.7rem;
+}
+
+
+.customcardprofile{
+    height: 655px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#Profile{
+    padding: 1rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.customcardprofile .firstrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 10px;
+}
+
+.customcardprofile .firstrow .profilepic{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.customcardprofile .firstrow .profilepic img{
+    width: 100%;
+    scale: 1.8;
+    
+}

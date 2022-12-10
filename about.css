@@ -8,16 +8,18 @@ a{
     text-decoration: none;
 }
 
+body{
+    background-color: #F4F4F6;
+}
+
 #Profile{
     padding: 1rem 2rem 0 2rem;
     margin-bottom: 2rem;
-    margin-right: -10px;
 }
 
 #contact{
     padding: 0.5rem 2rem 0 2rem;
     margin-bottom: 1rem;
-    margin-right: -10px;
 }
 
 

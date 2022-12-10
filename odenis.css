@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #F4F4F6;
+}
+
+#title{
+    padding: 2rem 0 0 1.7rem;
+}
+
+#Head{
+    padding: 3rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+#Head .customcard1{
+    padding-left: 1rem;
+    height: 140px;
+    background-color: #359796;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+#Head .customcard1 .img-div img{
+    width: 100%;
+    object-fit: contain;
+    /* transform: translate(1rem, -1.5rem); */
+    
+}
+
+
+.customcardprofile{
+    height: 645px;
+    background-color: #359796;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.customcardprofile .firstrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 10px;
+}
+
+.customcardprofile .firstrow .profilepic{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.customcardprofile .firstrow .profilepic img{
+    width: 100%;
+    scale: 1.8;
+    
+}
+
+#Profile{
+    padding: 1rem 2rem 0 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.secondrow{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 510px;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+}
+
+.cardbox{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 150px;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.bottom h1{
+    text-align: center;
+}
+
+.top{
+    text-align: center;
+}
