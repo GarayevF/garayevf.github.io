@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="questionnaire.html">Questionnaire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="Questionnaire">
+        
+        <div class="form-div">
+            
+            <form id="questionnaire-form">
+                <h1>Questionnaire</h1>
+                <div class="form-group-two">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Farid">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" name="surname" id="surname" placeholder="Garayev">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mail">Mail</label>
+                    <input type="text" name="mail" id="mail" placeholder="fgarayev13686@ada.edu.az">
+                </div>
+                <div class="form-group-phone">
+                    <label for="mail">Phone</label>
+                    <div class="phone-div">
+                        <select name="prefix" id="prefix">
+                            <option value="+994">+994</option>
+                            <option value="+90">+90</option>
+                            <option value="+995">+995</option>
+                        </select>
+                        <input type="tel" name="phone" id="phone" placeholder="513403201">
+                    </div>
+                </div>
+                
+                <div class="form-group-two">
+                    <div class="form-group">
+                        <label for="birth">Birth Date</label>
+                        <input type="date" name="birth" id="birth">
+                    </div>
+                    <div class="form-group">
+                        <span>Gender</span>
+                        <div class="radio-div-all">
+                            <div class="radio-div">
+                                <input type="radio" name="gender" id="male" value="male">
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="radio-div">
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group-checkbox">
+                    <input type="checkbox" name="policy" id="policy">
+                    <label for="policy">I accept Terms & Conditions</label>
+                </div>
+                <div class="form-group-button">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+</body>
+</html>

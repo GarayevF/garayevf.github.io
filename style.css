@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#Education{
+    padding: 2rem;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+header{
+    padding: 2rem 0;
+    border-bottom: 1px solid gray;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#Questionnaire{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+#Questionnaire{
+    font-size: 18px;
+}
+
+#Questionnaire h1{
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#Questionnaire form{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+#Questionnaire input[type=text],
+#Questionnaire input[type=tel],
+#Questionnaire input[type=date]{
+    width: 100%;
+    padding: 12px 12px;
+    border: 1px solid gray;
+    font-size: 14px;
+    border-radius: 6px;
+    outline: none;
+}
+
+
+#Questionnaire .form-div #questionnaire-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#Questionnaire .form-div #questionnaire-form .form-group-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#Questionnaire .form-div #questionnaire-form .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#Questionnaire .phone-div{
+    display: flex;
+}
+
+#Questionnaire .phone-div select,
+#Questionnaire .phone-div input{
+    margin: 0;
+    outline: none;
+}
+
+#Questionnaire .phone-div select{
+    border-radius: 6px 0 0 6px;
+    padding: 5px;
+}
+
+#Questionnaire .phone-div input{
+    border-radius: 0 6px 6px 0;
+}
+
+#Questionnaire .form-group .radio-div-all{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#Questionnaire .form-group .radio-div-all .radio-div{
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+#Questionnaire .form-group-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+#Questionnaire .form-group-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Questionnaire .form-group-button button{
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    color: #fff;
+    cursor: pointer;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    padding: 0 25px;
+    width: max(80%, 100px);
+}
