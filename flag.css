@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flag-div{
+    width: 100%;
+    aspect-ratio: 2;
+}
+
+.color{
+    height: 33.333%;
+}
+
+.color.blue{
+    background-color: #00B5E2;
+}
+
+.color.green{
+    background-color: #509E2F;
+}
+
+.color.red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EF3340;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    background-color: #EF3340;
+    height: 100%;
+}
+
+.moon{
+    aspect-ratio: 1;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.moon::after{
+    content: "";
+    aspect-ratio: 1;
+    height: 83.333%;
+    background-color: #EF3340;
+    position: absolute;
+    right: -2.666%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.star {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50%;
+    background: #fff;
+    aspect-ratio: 1;
+    clip-path: polygon(
+        100% 50%, 
+        73.083% 59.583%, 
+        85.333% 85.333%, 
+        59.583% 73.083%, 
+        50% 100%,
+        40.416% 73.083%, 
+        14.666% 85.333%, 
+        26.916% 59.583%, 
+        0% 50%, 
+        26.916% 40.416%, 
+        14.666% 14.666%, 
+        40.416% 26.916%, 
+        50% 0%, 
+        59.583% 26.916%, 
+        85.333% 14.666%, 
+        73.083% 40.416% 
+        );
+  }

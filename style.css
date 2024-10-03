@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: beige;
 }
 
 td, th{
@@ -64,6 +68,9 @@ nav ul{
     outline: none;
 }
 
+#Questionnaire .form-div{
+    background-color: #fff;
+}
 
 #Questionnaire .form-div #questionnaire-form{
     display: flex;
@@ -140,5 +147,10 @@ nav ul{
     margin: 12px 0 0;
     outline: none;
     padding: 0 25px;
-    width: max(80%, 100px);
+    width: 200px;
+    transition: .5s;
+}
+
+#Questionnaire .form-group-button button:hover{
+    width: 220px;
 }
